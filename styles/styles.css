@@ -1,3 +1,8 @@
+:root {
+    --standard-margin: 1rem;
+    --text-align: center;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -31,12 +36,12 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--standard-margin);
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -50,7 +55,7 @@ main img {
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 10px;
     box-shadow: 0 0 30px #333;
-    margin-top: 1rem;
+    margin-top: var(--standard-margin);
 }
 
 p {
@@ -58,7 +63,7 @@ p {
 }
 
 footer {
-    margin-top: 1rem;
+    margin-top: var(--standard-margin);
     border-top: 1px double #000;
-    text-align: center;
+    text-align: var(--text-align);
 }
