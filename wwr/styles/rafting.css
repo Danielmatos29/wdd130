@@ -78,7 +78,7 @@ h3 {
     /* Overwrite the general h1 margin to prevent gaps */
     text-align: center;
     opacity: 0.9;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: #fff;
 }
 
