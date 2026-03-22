@@ -28,6 +28,7 @@ footer {
 h1,
 h2,
 h3 {
+    font: var(--heading-font);
     margin: 16px;
     padding: 8px;
     background-color: var(--accent1-color);
@@ -60,12 +61,14 @@ h3 {
 
 /* Ensure the text inside the article is readable */
 .hero article p {
+    font: var(--body-font);
     margin: 0;
     padding: 0;
     color: #000;
 }
 
 .hero h1 {
+    font: var(--heading-font);
     position: absolute;
     top: 20px;
     left: 0;
