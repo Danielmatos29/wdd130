@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #055a55;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 16px;
+    padding: 8px;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+/* Ensure the text inside the article is readable */
+.hero article p {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    /* Align to the left edge of the hero div */
+    width: 100%;
+    margin: 0;
+    /* Overwrite the general h1 margin to prevent gaps */
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    /* Makes the text wrap around the smaller image */
+    width: 125px;
+    margin-left: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+}
