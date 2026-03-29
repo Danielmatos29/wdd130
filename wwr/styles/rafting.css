@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055a55;
     --secondary-color: #f4a261;
-    --accent1-color: #264653;
+    --accent1-color: rgb(38, 70, 83);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +15,46 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: var(--accent1-color);
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+    justify-self: start;
+    border-radius: 10px;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: var(--accent1-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 20px
 }
 
 header,
@@ -32,10 +72,6 @@ h3 {
     padding: 8px;
     background-color: var(--accent1-color);
     color: #fff;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
@@ -88,4 +124,28 @@ h3 {
     margin-left: 15px;
     border: 1px solid var(--primary-color);
     border-radius: 25px;
+}
+
+.History {
+    display: flex;
+    align-items: center;
+}
+
+.History img {
+    padding: 0 20px 0 20px;
+    width: 300px;
+}
+
+.Adventures {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    padding: 0 10px 0 10px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: right;
 }
