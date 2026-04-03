@@ -1,0 +1,28 @@
+table {
+    border: 2px solid rgb(140 140 140);
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+th,
+td {
+    border: 1px solid rgb(140, 140, 140);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.graytr {
+    background-color: rgb(234, 233, 233);
+}
+
+tfoot tr td {
+    background-color: #000;
+    color: #fff;
+}
