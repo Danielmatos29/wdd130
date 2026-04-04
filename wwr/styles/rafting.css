@@ -69,6 +69,7 @@ section h2,
 section h3 {
     font: var(--heading-font);
     margin: 16px;
+    text-align: center;
     padding: 8px;
     background-color: var(--accent1-color);
     color: #fff;
