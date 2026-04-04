@@ -64,9 +64,9 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3 {
+.hero h1,
+section h2,
+section h3 {
     font: var(--heading-font);
     margin: 16px;
     padding: 8px;
@@ -148,4 +148,43 @@ figure {
 footer nav {
     display: flex;
     justify-content: right;
+}
+
+main h2,
+main h3 {
+    margin-top: 5px;
+    display: block;
+    color: #000;
+    text-align: center;
+}
+
+section h2 {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 auto;
+    margin: 0;
+}
+
+form {
+    display: grid;
+    margin: 100px;
+}
+
+.radio {
+    display: flex;
+}
+
+label {
+    padding: 10px
+}
+
+.name-item,
+.email-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
 }
