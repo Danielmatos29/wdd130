@@ -237,7 +237,7 @@ figcaption {
     border-radius: 8px;
 }
 
-.TripImages {
+.trip {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
