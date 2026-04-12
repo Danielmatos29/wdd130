@@ -230,14 +230,14 @@ figcaption {
     gap: 5px
 }
 
-.TripImages img {
+.TripImage {
     border: 3px solid #333;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-.trip1 {
+.TripImages {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -250,4 +250,16 @@ figcaption {
 .trips-table th,
 .trips-table tr {
     color: #000;
+}
+
+.trips-table {
+    background-color: black;
+}
+
+.trips-table thead tr {
+    background-color: gray;
+}
+
+.trips-table tbody tr {
+    background-color: lightgray;
 }
